@@ -1628,7 +1628,6 @@ h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
 }
 
 h2 {
-	font-size: 2em;
 	letter-spacing: -1px;
 }
 
@@ -2203,6 +2202,10 @@ button:active,
 	color: #fff;
 	border-color: inherit;
 }
+#text_color{
+	color: white;
+	font-size: 50px;
+}
 
 #main > section.dark a {
 	color: #fff;
@@ -2215,6 +2218,7 @@ button:active,
 
 #main > section.cover {
 	padding: 6em 0;
+	font-size:50px;;
 	background-size: cover;
 	background-position: center center;
 }
@@ -2626,8 +2630,11 @@ hr{
 	border: 2px solid pink;
 	width: 50%;
 }
-#bulle{
-	color: black;
+.margin_name{
+	margin-top: 8%;
+}
+.margin_block{
+	margin-top: 15%;
 }
  #bulle{
 	color: pink;
